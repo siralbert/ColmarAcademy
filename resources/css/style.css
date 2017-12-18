@@ -11,6 +11,23 @@ h1 {
   font-weight: bold;
   font-size: 50px;
 }
+/* containers and items used in multiple sections */
+.sidebar{
+  width: 40%;
+  display: inline-flex;
+  flex-flow: column nowrap;
+}
+.item{
+  width: 100%;
+  height: 200px;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.text-container{
+
+}
+
 
 /* header section */
 header{
@@ -71,7 +88,7 @@ nav a{
   display: block;
   height: auto;
 }
-.banner .main{}
+
 .banner .caption{
   width: 30%;
 }
@@ -84,8 +101,34 @@ nav a{
 }
 /* info section */
 .info{
+  background-color: rgb(243, 245, 245);
+  display: flex;
 }
-.info .main{}
+.info .main{
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+.info .img-container{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+.info .img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.info h1{
+  margin-top: 2rem;
+}
+.info p{
+  margin-top: 1.5rem;
+}
+.info span{
+  display: block;
+  margin-top: 2rem;
+}
+
 .info .sidebar{}
 
 /* courses section */
