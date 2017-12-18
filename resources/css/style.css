@@ -5,30 +5,36 @@ h1 {
 
 /* header section */
 header{
-
 }
+header nav{}
+.logo{}
 
 /* banner section */
 .banner{
-
 }
+.banner .main{}
+.banner .caption{}
 
 /* info section */
 .info{
-
 }
+.info .main{}
+.info .sidebar{}
 
 /* courses section */
 .courses{
-
 }
+.courses .item{}
 
 /* thesis section */
 .thesis{
 
 }
+.thesis .main{}
+.thesis .sidebar{}
 
 /* footer section */
 footer{
-
 }
+footer nav{}
+footer .copyright{}
