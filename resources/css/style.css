@@ -3,7 +3,7 @@
   font-size: 16px;
 }*/
 body{
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -20,8 +20,10 @@ header{
 
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
+
+  /*nav*/
 header nav{
   display: flex;
   align-items: center;
@@ -39,6 +41,8 @@ header nav ul li:last-child{
 nav a{
   text-decoration: none;
 }
+
+  /* logo*/
 .logo{
   display: flex;
   align-items: center;
@@ -52,10 +56,32 @@ nav a{
 
 /* banner section */
 .banner{
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  align-items: center;
+}
+.banner .main{
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem 1.5rem;
+}
+.banner .main img{
+  width: 100%;
+  display: block;
+  height: auto;
 }
 .banner .main{}
-.banner .caption{}
-
+.banner .caption{
+  width: 30%;
+}
+.caption .button{
+  margin-top: 4.5rem;
+  text-align: center;
+  padding: .5rem 0;
+  color: white;
+  background-color: rgb(74, 74, 74);
+}
 /* info section */
 .info{
 }
