@@ -19,14 +19,12 @@ h1 {
 }
 .item{
   width: 100%;
-  height: 200px;
-  background-color: green;
+
   border: 2px solid black;
+  display: flex;
+  align-items: center;
 }
 
-.text-container{
-
-}
 
 
 /* header section */
@@ -129,7 +127,22 @@ nav a{
   margin-top: 2rem;
 }
 
-.info .sidebar{}
+.info .sidebar{
+  margin-top: 2rem;
+}
+.text-container{
+  width: 65%;
+}
+.info .sidebar .img-container{
+  width: 35%;
+  margin: 1rem;
+}
+.info .sidebar p{
+  margin: .5rem 0;
+}
+.sidebar .item:last-child{
+  background-color: rgb(216, 216, 216);
+}
 
 /* courses section */
 .courses{
