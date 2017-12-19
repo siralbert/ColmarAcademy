@@ -24,7 +24,11 @@ h1 {
   display: flex;
   align-items: center;
 }
-
+.img-container{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
 
 
 /* header section */
@@ -106,11 +110,6 @@ nav a{
   margin: 2rem 1.5rem;
   width: 60%;
 }
-.info .img-container{
-    width: 100%;
-    overflow: hidden;
-    height: auto;
-}
 .info .img-container img {
   width: 100%;
   height: auto;
@@ -146,8 +145,37 @@ nav a{
 
 /* courses section */
 .courses{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 2rem 4.5rem;
+  background-color: rgb(234, 235, 236);
 }
-.courses .item{}
+.courses .item{
+  margin: 2rem;
+  width: 25%;
+  display: inline-block;
+}
+.courses img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.courses h1{
+  text-align: center;
+  width: 100%;
+}
+.courses h2{
+  margin-top: 1rem;
+}
+.courses h4{
+  margin: .5rem 0;
+}
+.courses .text-container{
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
 
 /* thesis section */
 .thesis{
