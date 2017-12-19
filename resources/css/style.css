@@ -180,6 +180,9 @@ nav a{
   padding-bottom: 1.5rem;
   width: 100%;
 }
+.courses .text-container p{
+  padding-right: 2rem;
+}
 
 /* thesis section */
 .thesis{
@@ -187,9 +190,10 @@ nav a{
     display: flex;
     padding: 2rem 0;
 }
-.thesis h1{
+#thesis-heading{
   text-align: center;
-  width: 100%;
+  background-color: rgb(243, 245, 245);
+  padding-top: 2rem;
 }
 .thesis .main{
   margin: 0 1.5rem;
