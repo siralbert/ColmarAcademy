@@ -230,6 +230,9 @@ nav a:hover, a:active{
 .courses h4{
   margin: .5rem 0;
 }
+.courses h4, p{
+  color: rgb(127, 127, 127);
+}
 .courses .text-container{
   padding-left: 1rem;
   padding-bottom: 1.5rem;
@@ -260,6 +263,9 @@ nav a:hover, a:active{
 .thesis .main p{
   margin-top: .5rem;
 }
+.thesis .vid-container{
+  border: 2px solid rgb(216, 216, 216);
+}
 .thesis video{
   width: 100%;
   height: auto;
@@ -284,6 +290,10 @@ nav a:hover, a:active{
 }
 .thesis .sidebar .item:first-child{
   background-color: rgb(216, 216, 216);
+}
+
+p#design{
+  color: rgb(118, 118, 118);
 }
 
 /* footer section */
