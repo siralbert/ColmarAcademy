@@ -5,12 +5,12 @@
 body{
   max-width: 1200px;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3, header {
   font-weight: bold;
   color: rgb(74, 74, 74);
-  font-family: "Open Sans", sans-serif;
 }
 
 header{
@@ -18,15 +18,23 @@ header{
 }
 h1{
   font-size: 3.125rem;
+  font-weight: 800;
 }
 h2, h3{
   font-size: 2rem;
+  font-weight: 600;
 }
+
+h2{
+  font-size: 1.75rem;
+}
+
 
 p{
 /*  color: rgb(216, 216, 216); */
   color: rgb(74, 74, 74);
   font-family: sans-serif;
+  font-size: 1.25rem;
 }
 /* containers and items used in multiple sections */
 .sidebar{
@@ -36,8 +44,6 @@ p{
 }
 .item{
   width: 100%;
-
-  border: 2px solid black;
   display: flex;
   align-items: center;
 }
@@ -76,7 +82,7 @@ header nav ul li:last-child{
 nav a{
   text-decoration: none;
   color: rgb(74, 74, 74);
-  font-weight: 300;
+  font-weight: 400;
 }
 
   /* logo*/
@@ -153,7 +159,7 @@ nav a{
 }
 
 .info .sidebar{
-  margin-top: 2rem;
+  padding-top: 2rem;
   border-left: 2px solid rgb(234,235,236);
 }
 .text-container{
@@ -165,6 +171,9 @@ nav a{
 }
 .info .sidebar p{
   margin: .5rem 0;
+}
+.info .sidebar .item:first-child{
+	border-bottom: 2px double rgb(234,235,236);
 }
 .info .sidebar .item:last-child{
   background-color: rgb(216, 216, 216);
@@ -185,6 +194,7 @@ nav a{
   margin: 2rem;
   width: 25%;
   display: inline-block;
+  background-color: white;
 }
 .courses img{
   width: 100%;
@@ -264,6 +274,7 @@ footer{
   background-color: rgb(243, 245, 245);
   border-top: 2px solid rgb(234,235,236);
   padding-top: 1rem;
+  font-size: 1rem;
 }
 footer nav{}
 footer .copyright{
