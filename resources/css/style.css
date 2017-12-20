@@ -84,6 +84,10 @@ nav a{
   color: rgb(74, 74, 74);
   font-weight: 400;
 }
+nav a:hover, a:active{
+  font-weight: 600;
+}
+
 
   /* logo*/
 .logo{
@@ -129,6 +133,14 @@ nav a{
   color: white;
   background-color: rgb(74, 74, 74);
   font-size: 1.25rem;
+  transition: all 350ms ease-in-out;
+}
+
+.caption .button:hover,.button:active{
+	color: rgb(74, 74, 74);
+	font-weight: 600;
+	background-color: white;
+	cursor: pointer;
 }
 .caption h3{
   margin-top: 4.5rem;
@@ -172,8 +184,15 @@ nav a{
 .info .sidebar p{
   margin: .5rem 0;
 }
+.info .sidebar a{
+  color: rgb(77, 146, 226);
+  text-decoration: none;
+}
+.info .sidebar a:hover, a:active, a:visited{	
+  font-weight: 600;
+}
 .info .sidebar .item:first-child{
-	border-bottom: 2px double rgb(234,235,236);
+  border-bottom: 2px solid rgb(234,235,236);
 }
 .info .sidebar .item:last-child{
   background-color: rgb(216, 216, 216);
