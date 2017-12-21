@@ -104,6 +104,26 @@ nav a:hover, a:active{
 .logo .academy{
   color: rgb(155, 155, 155);
 }
+header .mobile{
+	display: none;
+}
+@media only screen and (max-width: 760px) {
+  header .desktop{
+	  display: none;
+  }
+  header .mobile{
+	  display: inline-block;
+	  width: 100%;
+	  margin-left: 10%;
+  }
+  .mobile ul{
+	width: 100%;
+    justify-content: space-around; 
+  }
+  .logo span{
+	  display: none;
+  }
+}
 
 /* banner section */
 .banner{
@@ -145,6 +165,29 @@ nav a:hover, a:active{
 .caption h3{
   margin-top: 4.5rem;
 }
+@media only screen and (max-width: 760px) {
+  .banner{
+		flex-direction: column;
+  }
+  .banner .main{
+		width: 100%;
+		margin: 0 0 2rem 0;
+  }
+  .banner .caption {
+		width: 100%;
+		margin-left: 1rem;
+	}
+	.caption h3 {
+		margin-top: 2rem;
+	}
+	.caption .button {
+		background-color: rgb(155, 155, 155);
+		font-weight: 600;
+		margin-top: 1.5rem;
+		margin-right: 1rem;
+	}
+}
+
 /* info section */
 .info{
   background-color: rgb(243, 245, 245);
