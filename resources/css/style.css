@@ -17,11 +17,12 @@ header{
   font-size: 1.25rem;
 }
 h1{
-  font-size: 3.125rem;
+  font-size: 2.25rem;
   font-weight: 800;
 }
 h2, h3{
-  font-size: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
   font-weight: 600;
 }
 
@@ -100,9 +101,11 @@ nav a:hover, a:active{
 }
 .logo span{
   font-size: 1.5rem;
+  font-weight:600;
 }
 .logo .academy{
   color: rgb(155, 155, 155);
+  font-weight: 400;
 }
 header .mobile{
 	display: none;
@@ -147,7 +150,7 @@ header .mobile{
   width: 30%;
 }
 .caption .button{
-  margin-top: 4.5rem;
+  margin-top: 1.875rem;
   text-align: center;
   padding: .5rem 0;
   color: white;
@@ -162,8 +165,11 @@ header .mobile{
 	background-color: white;
 	cursor: pointer;
 }
+.caption h1{
+	line-height:1.4
+}
 .caption h3{
-  margin-top: 4.5rem;
+  margin-top: 1.875rem;
 }
 @media only screen and (max-width: 760px) {
   .banner{
