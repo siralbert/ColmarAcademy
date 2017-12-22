@@ -276,6 +276,9 @@ header .mobile{
 	#last-text{
 		padding-bottom: 2rem;
 	}
+	#last-text p{
+		padding-right: 2rem;
+	}
 	.info .sidebar .mobile-img{
 		display: block;
 		width: 100%;
@@ -348,9 +351,15 @@ div.courses.mobile{
 		padding: 1rem;
 		padding-bottom: 1.5rem;
 		margin-top: 0.5rem;
+		transition: all 400ms;
 	}
 	div.courses.mobile h2:first-child{
 		margin-top: 0rem;
+	}
+	.courses.mobile h2:hover, h2:active{
+		background-color: rgb(74, 74, 74);
+		color: white;
+		cursor: pointer;
 	}
 	.courses{
 		padding: 2rem 1rem;
