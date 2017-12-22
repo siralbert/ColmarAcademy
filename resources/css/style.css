@@ -27,7 +27,7 @@ h2, h3{
 }
 
 h2{
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 
@@ -35,7 +35,8 @@ p{
 /*  color: rgb(216, 216, 216); */
   color: rgb(74, 74, 74);
   font-family: sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  line-height:1.5;
 }
 /* containers and items used in multiple sections */
 .sidebar{
@@ -84,6 +85,7 @@ nav a{
   text-decoration: none;
   color: rgb(74, 74, 74);
   font-weight: 400;
+  font-size: 1rem;
 }
 nav a:hover, a:active{
   font-weight: 600;
@@ -100,7 +102,7 @@ nav a:hover, a:active{
   padding-left: 1.5rem;
 }
 .logo span{
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight:600;
 }
 .logo .academy{
@@ -217,6 +219,7 @@ header .mobile{
 .info span{
   display: block;
   margin-top: 2rem;
+  font-size: .875rem;
 }
 
 .info .sidebar{
@@ -306,12 +309,12 @@ div.courses.mobile{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 2rem 4.5rem;
+  padding: 2rem 0rem;
   background-color: rgb(234, 235, 236);
 }
 .courses .item{
-  margin: 2rem;
-  width: 25%;
+  margin: 1rem;
+  width: 27%;
   display: inline-block;
   background-color: white;
 }
@@ -323,6 +326,7 @@ div.courses.mobile{
 .courses h1{
   text-align: center;
   width: 100%;
+  margin-bottom: 1rem;
 }
 .courses h2{
   margin-top: 1rem;
@@ -488,9 +492,12 @@ footer{
   background-color: rgb(243, 245, 245);
   border-top: 2px solid rgb(234,235,236);
   padding-top: 1rem;
-  font-size: 1rem;
+  padding-bottom: 3rem;
+  font-size: .75rem;
 }
-footer nav{}
+footer nav a{
+  font-size: .75rem;	
+}
 footer .copyright{
   margin-left: 1.5rem;
 }
