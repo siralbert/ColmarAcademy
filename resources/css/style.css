@@ -391,6 +391,7 @@ div.courses.mobile{
 }
 .thesis .vid-container{
   border: 2px solid rgb(216, 216, 216);
+	background-color: rgb(216, 216, 216);
 }
 .thesis video{
   width: 100%;
@@ -420,6 +421,41 @@ div.courses.mobile{
 p#design{
   color: rgb(118, 118, 118);
 }
+
+/* modified from https://codepen.io/chrisnager/pen/jPrJgQ 'video play button overlay by Chris Nager' */
+.video-wrapper {
+    position: relative;
+}
+.video-wrapper > video {
+    width: 100%;
+    vertical-align: middle;
+}
+.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+.video-overlay-play-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+		padding: 22% 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.95;
+    cursor: pointer;
+ /*   background-image: linear-gradient(transparent, #000);*/
+    transition: opacity 150ms;
+}
+.video-overlay-play-button:hover {
+    opacity: 1;
+}
+.video-overlay-play-button.is-hidden {
+    display: none;
+}
+
+
+
 @media only screen and (max-width: 760px){
 	.thesis .sidebar{
 		display: none;
