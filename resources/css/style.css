@@ -193,6 +193,7 @@ header .mobile{
 		font-weight: 600;
 		margin-top: 1.5rem;
 		margin-right: 1rem;
+		margin-bottom: 2rem;
 	}
 }
 
@@ -223,8 +224,8 @@ header .mobile{
 }
 
 .info .sidebar{
-  padding-top: 2rem;
-  border-left: 2px solid rgb(234,235,236);
+  padding-top: 1rem;
+  border-left: 1px solid rgb(234,235,236);
 }
 .text-container{
   width: 65%;
@@ -247,7 +248,11 @@ header .mobile{
   font-weight: 600;
 }
 .info .sidebar .item:first-child{
-  border-bottom: 2px solid rgb(234,235,236);
+  border-bottom: 1px solid rgb(234,235,236);
+  margin-bottom: 1px;
+}
+.info .sidebar .item:nth-child(2n){
+  border-top: 1px solid rgb(234,235,236);
 }
 .info .sidebar .item:last-child{
   background-color: rgb(216, 216, 216);
@@ -258,6 +263,7 @@ header .mobile{
 	}
 	.info .sidebar {
 		padding-top: 0;
+		border-left: none;
 	}
 	.info .sidebar .item{
 		padding: 0 1rem;
@@ -265,6 +271,9 @@ header .mobile{
 	.info .sidebar .item:first-child{
 		border-bottom: none;
 		margin-top: 1rem;
+	}
+	.info .sidebar .item:nth-child(2n){
+  		border-top: none;
 	}
 	.info .sidebar .item:last-child{
 		background-color: rgb(243, 245, 245);
@@ -351,9 +360,6 @@ div.courses.mobile{
 	}
 	div.courses.mobile{
 		display:block;
-	}
-	.courses.mobile h1{
-		padding-bottom: 1rem;
 	}
 
 	div.courses.mobile h2{
