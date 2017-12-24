@@ -7,12 +7,10 @@ body{
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
 }
-
 h1, h2, h3, header {
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
-
 header{
   font-size: 1.25rem;
 }
@@ -25,14 +23,10 @@ h2, h3{
   line-height: 1.5;
   font-weight: 600;
 }
-
 h2{
   font-size: 1.25rem;
 }
-
-
 p{
-/*  color: rgb(216, 216, 216); */
   color: rgb(74, 74, 74);
   font-family: sans-serif;
   font-size: 1rem;
@@ -264,9 +258,10 @@ header .mobile{
 	.info .sidebar {
 		padding-top: 0;
 		border-left: none;
+		padding: 0 1rem;
 	}
 	.info .sidebar .item{
-		padding: 0 1rem;
+		padding: 0 0;
 	}
 	.info .sidebar .item:first-child{
 		border-bottom: none;
@@ -287,7 +282,6 @@ header .mobile{
 	}
 	.info .sidebar .text-container{
 		width: 100%;
-		padding-left: 1rem;
 		padding-bottom: 4rem;
 		padding-top: 2rem;
 	}
@@ -469,8 +463,6 @@ p#design{
 .video-overlay-play-button.is-hidden {
     display: none;
 }
-
-
 
 @media only screen and (max-width: 760px){
 	.thesis .sidebar{
